@@ -57,7 +57,7 @@ $(document).ready(function() {
         result.push(new Image("saveset", "save design", blue, "Logo Design | Product Branding"));
         result.push(new Image("bearstickers", "bear stickers", yellow , "Logo Design | Personal Work"));
         result.push(new Image("berkeleytime", "berkeley-time", blue, "Web Illustration | Innovative Design"));
-        result.push(new Image("cherryblossom", "cherry blossom", "Pixel Illustration | Personal Work"));
+        result.push(new Image("cherryblossom", "cherry blossom", yellow, "Pixel Art | Personal Work"));
         result.push(new Image("workinprogress", "work in progress", green, "Duotones | Personal Work"));
         result.push(new Image("classshirts", "school apparel", blue, "Logo Design | Apparel"));
         result.push(new Image("moffit", "moffit rebrand", yellow, "Logo Design | Personal Work"));
@@ -75,7 +75,6 @@ $(document).ready(function() {
     function change_info(image){
         $("#design-category-box").css("transition", "0.4s");
         $("#design-category-box").css("background-color", image.color);
-        $("#design-title").fadeIn();
         //jQuery Function Number 4
         $("#design-title").text(image.title);
         $("#design-tags").text(image.category);
