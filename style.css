@@ -9,7 +9,7 @@ body {
   font-size: 12pt;
   /* TODO: adjust scaling */
   transform-origin: top center;
-  transform: scale(0.9);
+  transform: scale(0.85);
 }
 
 
