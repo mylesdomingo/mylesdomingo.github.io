@@ -169,7 +169,7 @@ a {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 2.5%;
+  margin-top: 5%;
 }
 
 .intro__button{
