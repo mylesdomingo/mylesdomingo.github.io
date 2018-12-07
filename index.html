@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sr">
   <head>
     <title>Hello!</title>
     <meta charset="utf-8">
@@ -13,13 +13,14 @@
     
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+<!--     <script src="https://unpkg.com/scrollreveal"></script> -->
   </head>  
   <body>
     <div class="content">
       <section class = "intro">
         <div class = "intro__image-container">
           <div class = "intro__collage">
-            <img class="intro__image" id = "intro__profile" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fprofile.png?1544069840792">
+            <img class="intro__image" id = "intro__profile" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FprofilePic.jpg?1544168650275">
             <img class="intro__image intro__svg" id = "intro__lightning" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FGroup%2053.svg?1544070659958">
             <img class="intro__image intro__svg" id = "intro__triangle" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FPath%207.svg?1544070667115">
             <img class="intro__image intro__svg" id = "intro__squiggle" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FGroup%2054.svg?1544070660041">
@@ -29,21 +30,29 @@
           </div>
         </div>
         <div class = "intro__text-container">
-          <h1>Hello World!</h1>
+          <h1>Hello There!</h1>
           <div class = "intro__description">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sodales tempor. 
-              Phasellus facilisis semper mattis. Suspendisse et quam quis lectus vulputate pellentesque. 
-              Nam convallis orci ac
+              My name's Myles Domingo. I am currently a sophomore at UC Berkeley studying computer science, with
+              a passion for the intersectionality between software development and&nbsp;visual&nbsp;design.
             </p>
+            <p>
+              This website is currently under construction, but checkout some of my work below! 
+              Feel free to send&nbsp;me&nbsp;an&nbsp;email&nbsp;at: 
+            </p>
+            <p class = "p-bold"> mylesdomingo@berkeley.edu </p>
           </div>
           <div class = "intro__button-container">
-            <div class = "intro__button" id = "button-black">
-              <p class = "p-white">Resume</p>
-            </div>
-            <div class = "intro__button" id = "button-white">
-              <p>Learn More</p>
-            </div>
+            <a href = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fmylesdomingo_resume.pdf?1544168983012" target = "_blank">
+              <div class = "intro__button" id = "button-black">
+                <p class = "p-white">Resume</p>
+              </div>
+            </a>
+            <a href = "https://www.linkedin.com/in/mylesdomingo/" target = "_blank">
+              <div class = "intro__button" id = "button-white">
+                <p class>LinkedIn</p>
+              </div>
+            </a>
           </div>
           
         </div>
@@ -52,66 +61,70 @@
       <section class = "cases">
         <h1 class = "cases__title"> Projects </h1>
         <p class = "case__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
-          maximus sodales tempor. Phasellus facilisis semper 
+          These are some of the projects I've been working on lately, and are ready to showcase. 
+          More coming soon!
         </p>
-        <div class = "case__container">
+        <div class = "case__container load-hidden"> 
           <div class = "case__text-container">
             <div class = "case__title-indiv">
-              <h1>Title One</h1>
-              <h2>Lorem Ipsum Dolor</h2>
+              <h1>Dungeons & Dragons</h1>
+              <h2>Character Creation UI</h2>
             </div>
             <div class = "case__info">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
-                maximus sodales tempor. Phasellus facilisis semper. Suspendisse et quam quis lectus 
+                A digital interface that attempts to improve player onboarding 
+                experience in character creation and reduce complexity in user decision-making
+                by focusing on storytelling and “class fantasy”. 
               </p>
             </div>
           </div>
           <div class = "cases__image-container" >
-            <a href="https://medium.com/@mesmyles/user-interfaces-for-character-creation-in-d-d-15d8e8c2575c">
-              <div class = "cases__image" id = "case1"></div>
+            <a href="https://medium.com/@mesmyles/user-interfaces-for-character-creation-in-d-d-15d8e8c2575c" target="_blank">
+              <div class = "cases__image" id = "case1" ></div>
             </a>
           </div>
         </div>
-        <div class = "case__container">
+        <div class = "case__container load-hidden">
           <div class = "case__text-container">
             <div class = "case__title-indiv">
-              <h1>Title Two</h1>
-              <h2>Lorem Ipsum Dolor</h2>
+              <h1>Checkpoint</h1>
+              <h2>An Airport Companion App</h2>
             </div>
             <div class = "case__info">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
-                maximus sodales tempor. Phasellus facilisis semper. Suspendisse et quam quis lectus 
+                A case study on how to improve the overall airport experience and reduce passenger 
+                stress — involves a mobile application that mandates the user to complete certain tasks 
+                before receiving their boarding pass. 
               </p>
             </div>
           </div>
-          <div class = "cases__image-container"><div class = "cases__image" id = "case2"></div></div>
+          <div class = "cases__image-container" >
+            <a href="https://www.behance.net/gallery/73132197/Checkpoint-An-Airport-Companion-App" target="_blank">
+              <div class = "cases__image" id = "case2"></div>
+            </a>
+          </div>
         </div>
-        <div class = "case__container">
+        <div class = "case__container load-hidden">
           <div class = "case__text-container">
             <div class = "case__title-indiv" >
-              <h1>Title Three</h1>
-              <h2>Lorem Ipsum Dolor</h2>
+              <h1>Web Design Decal</h1>
+              <h2>Teaching Assistant</h2>
             </div>
             <div class = "case__info">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
-                maximus sodales tempor. Phasellus facilisis semper. Suspendisse et quam quis lectus 
+               Teaches for the Web Design Decal at Berkely and lectures 
+              for over 150+ students about the fundamentals of web 
+              design using HTML, CSS, and Javascript.
               </p>
             </div>
           </div>
-          <div class = "cases__image-container"><div class = "cases__image" id = "case3"></div></div>
+          <div class = "cases__image-container" >
+            <a href="https://wdd.io/" target="_blank">
+              <div class = "cases__image" id = "case3"></div>
+            </a>
+          </div>
         </div>
       </section>
     </div>
-    
-    
-    
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-<!--     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script> -->
   </body>
 </html>
