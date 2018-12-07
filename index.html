@@ -1,189 +1,117 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- <script src="//assets/js/jquery.localScroll.js" type="text/javascript"></script>
-        <script src="//assets/js/jquery.scrollTo.js" type="text/javascript"></script>
-        <script src="//assets/js/noframework.waypoints.js" type="text/javascript"></script>
-        <script src="//assets/js/jquery.waypoints.js" type="text/javascript"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
-
-    </head>
-    <body>
-        <div class="container-wrapper">
-            <div class = "navigation-container">
-                <div id = "nav-text">
-                    <div class = "nav-item"><a href="#work-container">Work</a></div>
-                    <div class = "nav-item"><a href="#design-container">Design</a></div>
-                    <div class = "nav-item"><a href="#contact-container">Contact</a></div>
-                </div>
-            </div>
-            <div class = "about-container">
-                <div class = "about-img-container">
-                    <div class = "about-img"></div>
-                    <div class = "about-img-2"></div>
-                    <div class = "img-shape" id = "img-tri"><img src="assets/images/triangle.svg"/></div>
-                    <div class = "img-shape" id = "img-dbl-carat"><img src="assets/images/two-tip.svg"/></div>
-                    <div class = "img-shape" id = "img-carat"><img src="assets/images/tip.svg"/></div>
-                    <div class = "img-shape" id = "img-large-circle"><img src="assets/images/lg_circle.svg"/></div>
-                    <div class = "img-shape" id = "img-small-circle"><img src="assets/images/small_circle.svg"/></div>
-                    <div class = "img-shape" id = "img-slash"><img src="assets/images/slash.svg"/></div>
-                    <div class = "img-shape" id = "img-square"><img src="assets/images/square.svg"/></div>
-                    <div class = "img-shape" id = "img-x"><img src="assets/images/x_mark.svg"/></div>
-                </div>
-                <div class = "about-text-container">
-                    <div class = "about-text-wrapper">
-                        <div id="hello">HELLO</div>
-                        <div id="intro">I’m Myles, a second-year
-                            student at UC Berkeley.  </div>
-                        <div class="about-para">
-                            I currently study computer science and my interests lie in
-                            learning how technology interacts with design.
-                        </div>
-                        <div class="about-para" id="about-para2">
-                            I love programming, designing websites, and illustrations!
-                        </div>
-                        <div class = "media">
-                            <div class = "media-text">
-                                <a href="https://www.linkedin.com/in/mylesdomingo/">Linkedin</a>
-                            </div>
-                            <div class = "media-text">
-                                <a href="https://github.com/mylesdomingo">Github</a>
-                            </div>
-                            <div class = "media-text">
-                                <a href="https://www.instagram.com/hi.smyles/">Instagram</a>
-                            </div>
-                            <div class = "media-text">
-                                <a href="https://dribbble.com/smyles">Dribbble</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class = "about-border">
-                </div>
-            </div>
-            <div class = "work-container" id="work-container">
-                <div id="work-background-gray">
-                    <div class="work-text-wrapper">
-                        <div class="section-header">
-                            Work.
-                        </div>
-                        <div class="section-description">
-                            Below you will find an on-going list of projects I’ve completed,
-                            as part of my courses or independently. <span>Also, check out my <a href="./assets/images/mylesdomingo_resume.pdf">resume.</a></span>
-                        </div>
-                    </div>
-                    <div class="work-grid-images transition" id="work-grid-images">
-                        <div class = "work-col" id="work-col1">
-                            <div class = "work-image" id="work-img1"></div>
-                            <div class = "work-description-header">
-                                <div class = "work-desc-title">Puzzle Generator</div>
-                                <div class = "work-desc-category">Class Project</div>
-                            </div>
-                            <div class = "desc-wrapper">
-                                <div class = "work-image-description">
-                                    Unicode-tile puzzle map generated using psuedo-RNG with text-based save files.
-                                </div>
-                            </div>
-                        </div>
-                        <div class = "work-col" id="work-col2">
-                            <div class = "work-image" id="work-img2"></div>
-                            <div class = "work-description-header">
-                                <div class = "work-desc-title">Bear Maps</div>
-                                <div class = "work-desc-category">Class Project</div>
-                            </div>
-                            <div class = "desc-wrapper">
-                                <div class = "work-image-description">
-                                    Developed back-end for image map rasterer and implemented A*
-                                    to find directions to destinations with OpenStreetMaps.
-                                </div>
-                            </div>
-                        </div>
-                        <div class = "work-col" id="work-col3">
-                            <div class = "work-image" id="work-img3"></div>
-                            <div class = "work-description-header">
-                                <div class = "work-desc-title">Vectory Sky</div>
-                                <div class = "work-desc-category">Personal Project</div>
-                            </div>
-                            <div class = "desc-wrapper">
-                                <div class = "work-image-description">
-                                    Interactive browser homepage animated using HTML5 and JS canvas.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="work-background-white">
-                </div>
-            </div>
-            <div class = "design-container" id="design-container">
-                <div id="design-info">
-                    <div class="design-section-header">
-                        <div class="section-header" id="design-header">
-                            Design.
-                        </div>
-                        <div class="section-description" id="design-description">
-                            My portfolio featuring personal work and client requests
-                            for Innovative Design at UC Berkeley.
-                        </div>
-                    </div>
-                </div>
-                <div id="design-section-text" >
-                    <div class= "transition" id="design-section-text-wrapper">
-                        <div id="design-category-box"></div>
-                        <div id="design-title" class="design-indent">its a look</div>
-                        <div id="design-tags" class="design-indent">Photography | Personal Work </div>
-                        <div id="design-section-buttons">
-                                <img class="arrow" id="leftarrow" src="assets/images/leftarrow.svg"/>
-                                <img class="arrow" id="rightarrow"src="assets/images/rightarrow.svg"/>
-                                <div id="design-number">
-                                    01/10
-                                </div>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class="transition" id="design-display">
-                    <div id="carousel-container">
-				        <div id="carousel-strip">
-				        </div>
-			        </div>
-                </div>
-            </div>
-            <div class = "contact-container" id="contact-container">
-                <div class="contact-container-wrapper">
-                    <div class="section-header" id="contact-header">Contact.</div>
-                    <div class="contact-banner"><img src="assets/images/chat.svg"/></div>
-                    <div class="contact-msg transition" id="reach">Reach out for <span id ="contact-highlight">
-                        <a href="mailto:mylesdomingo@berkeley.edu">work inquiries</a></span> and other opportunities.</div>
-                    <div id="contact-email">
-                        <a href="mailto:mylesdomingo@berkeley.edu">mylesdomingo@berkeley.edu</a>
-                    </div>
-                    <div class = "media" id="contact-media">
-                        <div class = "media-text">
-                            <a href="https://www.linkedin.com/in/mylesdomingo/">Linkedin</a>
-                        </div>
-                        <div class = "media-text">
-                            <a href="https://github.com/mylesdomingo">Github</a>
-                        </div>
-                        <div class = "media-text">
-                            <a href="https://www.instagram.com/hi.smyles/">Instagram</a>
-                        </div>
-                        <div class = "media-text">
-                            <a href="https://dribbble.com/smyles">Dribbble</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer">
-                Created for UC Berkeley Web Design Decal 2018 — <a href ="wdd.io">wdd.io</a>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/animation.css">
+    <link rel="stylesheet" href="https://use.typekit.net/iga8ikd.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <div class="content">
+      <section class = "intro">
+        <div class = "intro__image-container">
+          <div class = "intro__collage">
+            <img class="intro__image" id = "intro__profile" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fprofile.png?1544069840792">
+            <img class="intro__image intro__svg" id = "intro__lightning" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FGroup%2053.svg?1544070659958">
+            <img class="intro__image intro__svg" id = "intro__triangle" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FPath%207.svg?1544070667115">
+            <img class="intro__image intro__svg" id = "intro__squiggle" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FGroup%2054.svg?1544070660041">
+            <img class="intro__image intro__svg" id = "intro__circles" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FGroup%2055.svg?1544070659829">
+            <img class="intro__image intro__svg" id = "intro__cross" src = "https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FGroup%201.svg?1544070669341">
+            <div class="intro__image intro__svg" id = "intro__block"><h1 class = "h1-white">Myles Domingo</h1></div>
+          </div>
         </div>
-    </body>
-    <script src="assets/js/script.js"></script>
+        <div class = "intro__text-container">
+          <h1>Hello World!</h1>
+          <div class = "intro__description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sodales tempor. 
+              Phasellus facilisis semper mattis. Suspendisse et quam quis lectus vulputate pellentesque. 
+              Nam convallis orci ac
+            </p>
+          </div>
+          <div class = "intro__button-container">
+            <div class = "intro__button" id = "button-black">
+              <p class = "p-white">Resume</p>
+            </div>
+            <div class = "intro__button" id = "button-white">
+              <p>Learn More</p>
+            </div>
+          </div>
+          
+        </div>
+        
+      </section>
+      <section class = "cases">
+        <h1 class = "cases__title"> Projects </h1>
+        <p class = "case__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+          maximus sodales tempor. Phasellus facilisis semper 
+        </p>
+        <div class = "case__container">
+          <div class = "case__text-container">
+            <div class = "case__title-indiv">
+              <h1>Title One</h1>
+              <h2>Lorem Ipsum Dolor</h2>
+            </div>
+            <div class = "case__info">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+                maximus sodales tempor. Phasellus facilisis semper. Suspendisse et quam quis lectus 
+              </p>
+            </div>
+          </div>
+          <div class = "cases__image-container" >
+            <a href="https://medium.com/@mesmyles/user-interfaces-for-character-creation-in-d-d-15d8e8c2575c">
+              <div class = "cases__image" id = "case1"></div>
+            </a>
+          </div>
+        </div>
+        <div class = "case__container">
+          <div class = "case__text-container">
+            <div class = "case__title-indiv">
+              <h1>Title Two</h1>
+              <h2>Lorem Ipsum Dolor</h2>
+            </div>
+            <div class = "case__info">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+                maximus sodales tempor. Phasellus facilisis semper. Suspendisse et quam quis lectus 
+              </p>
+            </div>
+          </div>
+          <div class = "cases__image-container"><div class = "cases__image" id = "case2"></div></div>
+        </div>
+        <div class = "case__container">
+          <div class = "case__text-container">
+            <div class = "case__title-indiv" >
+              <h1>Title Three</h1>
+              <h2>Lorem Ipsum Dolor</h2>
+            </div>
+            <div class = "case__info">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+                maximus sodales tempor. Phasellus facilisis semper. Suspendisse et quam quis lectus 
+              </p>
+            </div>
+          </div>
+          <div class = "cases__image-container"><div class = "cases__image" id = "case3"></div></div>
+        </div>
+      </section>
+    </div>
+    
+    
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+<!--     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script> -->
+  </body>
 </html>
