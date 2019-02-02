@@ -266,7 +266,7 @@ a, a:visited, a:active{
 }
 
 #case1 {
-  background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fd%26d.png?1544165600398");
+  background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fdnd.png?1549078942394");
 }
 
 #case2 {
@@ -274,6 +274,10 @@ a, a:visited, a:active{
 }
 
 #case3 {
+  background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FLogo%20Black.png?1549080896232");
+  background-position: center;
+}
+#case4 {
   background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fwdd.jpg?1544164840150");
   background-position: center;
 }
