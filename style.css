@@ -1,5 +1,5 @@
 body {
-  font-family: "Gibson", "Helvetica Neue", system-ui, sans-serif;
+  font-family: "canada-type-gibson", "Helvetica Neue", system-ui, sans-serif;
   margin: auto;
   width: 100vw;
   height: 100vh;
@@ -9,14 +9,15 @@ body {
   font-size: 12pt;
   /* TODO: adjust scaling */
   transform-origin: top center;
-  transform: scale(0.9);
+  transform: scale(0.85);
 }
 
 
 
 h1 {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 4.5em;
+  font-style: normal;
   color: #333;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -27,7 +28,8 @@ h1 {
 }
 
 h2 {
-  font-weight: bold;
+  font-weight: 600;
+  font-style: normal;
   font-size: 3em;
   color: #BCBCBC; 
 }
@@ -265,18 +267,29 @@ a, a:visited, a:active{
   cursor: pointer;
 }
 
-#case1 {
-  background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fd%26d.png?1544165600398");
+#dnd {
+  background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fdnd.png?1549078942394");
 }
 
-#case2 {
+#airports {
   background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fairports.png?1544165784455");
 }
 
-#case3 {
+#codeology {
+  background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FLogo%20Black.png?1549080896232");
+  background-position: center;
+}
+
+#wdd {
   background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fwdd.jpg?1544164840150");
   background-position: center;
 }
+
+#fivestars {
+  background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Ffivestars.png?v=1569452304198");
+  background-position: center;
+}
+
 
 
 @media only screen  and (max-width : 1920px) {
