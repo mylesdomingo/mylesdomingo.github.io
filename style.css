@@ -12,8 +12,6 @@ body {
   transform: scale(0.85);
 }
 
-
-
 h1 {
   font-weight: 600;
   font-size: 4.5em;
@@ -267,22 +265,29 @@ a, a:visited, a:active{
   cursor: pointer;
 }
 
-#case1 {
+#dnd {
   background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fdnd.png?1549078942394");
 }
 
-#case2 {
+#airports {
   background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fairports.png?1544165784455");
 }
 
-#case3 {
+#codeology {
   background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2FLogo%20Black.png?1549080896232");
   background-position: center;
 }
-#case4 {
+
+#wdd {
   background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Fwdd.jpg?1544164840150");
   background-position: center;
 }
+
+#fivestars {
+  background-image: url("https://cdn.glitch.com/3642a9a2-bfd3-4da6-9890-1bf4848b9e31%2Ffivestars.png?v=1569452304198");
+  background-position: center;
+}
+
 
 
 @media only screen  and (max-width : 1920px) {
